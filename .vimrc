@@ -9,10 +9,6 @@
 "                      
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
 
-" Set vim theme
-colorscheme gruvbox
-set background=dark
-
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -98,6 +94,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-surround'
 
 call plug#end()
+  
+" Set vim theme(make sure to let below commands underneth the Plugins settings)
+colorscheme gruvbox
+set background=dark
 
 " }}}
 
