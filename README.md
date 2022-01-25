@@ -1,13 +1,12 @@
 # My-Vim-Config
-Plug Management: [Vim Plug](https://github.com/junegunn/vim-plug)  
-Vim theme: [Gruxvbox](https://github.com/morhetz/gruvbox)
+Plugin Management: [Vim Plug](https://github.com/junegunn/vim-plug)  
+Vim Theme: [Gruxvbox](https://github.com/morhetz/gruvbox)
 
 ## How to use it
 1. ``git clone`` https://github.com/ChenYi-qy/My-Vim-Config.git
 2. Replace your vim config file: ``mv ./My-Vim-Config/.vimrc ~/`` (delete your .vimrc if you have)
 3. (Optional)Install Vim-Plug If your didn't have:
 ```
-Vim (~/.vim/autoload)
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 4. Install Plugins
