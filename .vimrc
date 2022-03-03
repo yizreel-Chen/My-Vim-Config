@@ -14,6 +14,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'preservim/nerdtree'
   Plug 'morhetz/gruvbox' 
   Plug 'tpope/vim-surround'
+  Plug 'plasticboy/vim-markdown'
+
+
 call plug#end()
 " }}}
 
@@ -148,7 +151,13 @@ endif
 
 " }}}
 
-" MAPPINGS --------------------------------------------------------------- {{{
+" BASIC SETTINGS --------------------------------------------------------------- {{{
+
+" To use Latex formula
+let g:vim_markdown_math=1
+
+" To use markdown preview
+let vim_markdown_preview_github=1
 
 " Set vim theme(make sure to let below commands underneth the Plugins settings)
 colorscheme gruvbox
